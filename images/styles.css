@@ -52,9 +52,6 @@ a{text-decoration: none}
 .header{
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-    
-    
-
 }
 .logo-header {
     font-size: 18px;
@@ -180,7 +177,7 @@ font-weight: 400;
         align-items: center;
 padding-top: 188px;
 padding-bottom: 188px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office\.png');
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office\ 1.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -339,7 +336,7 @@ display: flex;
     color: #434455;
     }
         .team-socials-link{
-   
+
         }
     .team-socials{
         display: flex;
@@ -399,22 +396,9 @@ width:calc((100% - 2 * 24px) / 3);
 }
 .portfolio-overlay{
     position: absolute;
-    top: 0;
-    left: 0;
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-width: 100%;
-    height: 100%;
+width: 360px;
+    height: 300px;
     overflow: hidden;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
-
-background-color: #4D5AE5;
 }
 .portfolio-grid{
     padding: 32px 16px 32px 16px;
@@ -504,22 +488,10 @@ background-color: #4D5AE5;
 .footer-social{
 
 }
-.social-list{
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        gap: 16px;
-        width: 208px;
-        height: 40px;
-}
 .footer-socials-icon{
-    fill: #F4F4FD;
-
 
 }
 .footer-social-link{
-    width: 100%;
-    height: 100%;
+    
 }
 /*#endregion footer section*/
