@@ -579,7 +579,7 @@ margin-right: 120px;
         
         margin-bottom: 16px;
 }
-.social-list-footer{
+.socials-list-footer{
 
     display: flex;
     justify-content: center;
@@ -607,7 +607,7 @@ margin-right: 120px;
     display: flex;
         justify-content: center;
         align-items: center;
-        gap: 16px;
+        
 }
 
 
