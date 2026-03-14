@@ -444,10 +444,10 @@ transition-property: box-shadow;
 }
 
 .portfolio-list:hover{
-    border-bottom: 1px box-shadow #E7E9FC;
-        border-left: 1px box-shadow #E7E9FC;
-        border-right: 1px box-shadow #E7E9FC;
-        
+box-shadow:
+        0 1px 6px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list:hover .portfolio-overlay {
